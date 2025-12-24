@@ -3,7 +3,7 @@ import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken' 
 import { generateotp } from "../utils/generator.js"
 import { sendMail } from "../services/sendmail.js"
-import Otp from "../models/Otp.js"
+import Otp from "../models/otp.js"
 
 
 
